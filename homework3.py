@@ -2,7 +2,7 @@
 # стоящих на нечётной позиции.
 # Пример: [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-import random
+# import random
 
 # num = int(input('Введите число N:'))
 # num_list=[2,3,5,9,3]
@@ -60,6 +60,7 @@ import random
 #         count+=1
 #         print(max)
 # print(min,max)
+## hhvvvv
 
 
 
@@ -88,16 +89,16 @@ import random
 # 3 -> 11
 # 2 -> 10
 
-num=(int(input('Ввведите число, которое хотите преобразовать в двоичное : ')))
+# num=(int(input('Ввведите число, которое хотите преобразовать в двоичное : ')))
 
-binum=''
-num1= num
-print(type(binum))
-while num1 > 0:
-    binum=str(num1%2)+binum
-    num1=num1//2
+# binum=''
+# num1= num
+# print(type(binum))
+# while num1 > 0:
+#     binum=str(num1%2)+binum
+#     num1=num1//2
   
-print(f"Число {num} в двоичной системе это {binum} ")
+# print(f"Число {num} в двоичной системе это {binum} ")
 
 
 
